@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:descendantFocusability="blocksDescendants"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	<!-- 评论者行 -->
+	<LinearLayout
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dip"
+		android:layout_marginRight="10dip"
+		android:layout_marginTop="5dp"
+		android:orientation="horizontal">
+		<TextView
+			android:id="@+id/comment_author"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:textSize="15sp"
+			android:textColor="#fcaf17"
+			android:text="评论者"/>
+		<TextView
+		    android:id="@+id/comment_time"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_weight="1"
+			android:gravity="right"
+			android:textSize="15sp"
+			android:textColor="#b6b6b6"
+			android:text="2016-3-15"/>
+	</LinearLayout>
+	<!-- 内容行 -->
+    <LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView
+		    android:id="@+id/comment"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:textSize="18sp"
+			android:textColor="#503e2c"
+			android:text="这里是评论"/>
+	</LinearLayout>
+	
+	<!-- 图片行 -->
+	<LinearLayout
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:layout_marginLeft="10dip"
+		android:layout_marginRight="10dip"
+		android:orientation="vertical">
+		<ImageView
+		    android:id="@+id/comment_img"
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	
+	<!-- 底部灰线行，在ListView分割线divider之上，突显立体效果 -->
+	<View
+	    android:layout_width="fill_parent"
+		android:layout_height="0.1dp"
+		android:layout_marginLeft="10dip"
+		android:layout_marginRight="10dip"
+		android:background="#ededed"/>
+</LinearLayout>

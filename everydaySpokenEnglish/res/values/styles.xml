@@ -1,0 +1,141 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="dialogstyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <!-- <item name="android:windowBackground">#00000000</item> -->
+
+
+        <!-- 背景透明 -->
+        <item name="android:background">#00000000</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+    </style>
+
+    <style name="ge_tab_button_normal_style">
+        <item name="android:textColor">@color/ge_big_black</item>
+        <item name="android:textSize">18dip</item>
+        <item name="android:background">@color/ge_white</item>
+    </style>
+
+    <style name="ge_rb_style">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">top|center_horizontal</item>
+        <item name="android:background">@color/ge_blue_mormal</item>
+        <item name="android:button">@null</item>
+    </style>
+
+    <style name="ge_top_tab_style">
+        <item name="android:background">@color/ge_white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ge_text_8_white">
+        <item name="android:textSize">8dip</item>
+        <item name="android:textColor">@color/ge_white</item>
+    </style>
+
+    <style name="ge_text_10_little_gray">
+        <item name="android:textSize">10dip</item>
+        <item name="android:textColor">@color/ge_little_gray</item>
+    </style>
+
+    <style name="ge_text_10_cool_white">
+        <item name="android:textSize">10dip</item>
+        <item name="android:textColor">@color/ge_cool_white</item>
+    </style>
+
+    <style name="ge_text_12_little_gray">
+        <item name="android:textSize">12dip</item>
+        <item name="android:textColor">@color/ge_little_gray</item>
+    </style>
+
+    <style name="ge_text_12_title_black">
+        <item name="android:textSize">12dip</item>
+        <item name="android:textColor">@color/ge_title_black</item>
+    </style>
+
+    <style name="ge_text_12_orange">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">@color/ge_orange</item>
+    </style>
+
+    <style name="ge_text_14_title_black">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">@color/ge_title_black</item>
+    </style>
+    <style name="ge_text_14_little_gray">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">@color/ge_little_gray</item>
+    </style>
+    <style name="ge_text_14_white">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">@color/ge_white</item>
+    </style>
+
+    <style name="ge_text_14_gold">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">@color/ge_gold</item>
+    </style>
+
+    <style name="ge_text_16_title_black">
+        <item name="android:textSize">16dip</item>
+        <item name="android:textColor">@color/ge_title_black</item>
+    </style>
+    <style name="ge_text_16_white">
+        <item name="android:textSize">16dip</item>
+        <item name="android:textColor">@color/ge_white</item>
+    </style>
+
+    <style name="ge_text_18_orange">
+        <item name="android:textSize">18dip</item>
+        <item name="android:textColor">@color/ge_gold</item>
+    </style>
+
+    <style name="ge_text_18_cool_white">
+        <item name="android:textSize">18dip</item>
+        <item name="android:textColor">@color/ge_cool_white</item>
+    </style>
+
+    <style name="ge_text_20_white">
+        <item name="android:textSize">20dip</item>
+        <item name="android:textColor">@color/ge_white</item>
+    </style>
+    
+        <style name="ge_text_20_gold">
+        <item name="android:textSize">20dip</item>
+        <item name="android:textColor">@color/ge_gold</item>
+    </style>
+
+    <style name="ge_text_20_title_black">
+        <item name="android:textSize">20dip</item>
+        <item name="android:textColor">@color/ge_title_black</item>
+    </style>
+
+</resources>

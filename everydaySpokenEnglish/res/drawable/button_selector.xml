@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按钮按下之后背景色 -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#19a275"/>
+            <!-- 按钮圆角 -->
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+
+    <!-- 按钮按下之前背景色 -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent"/>
+            <!-- 按钮圆角 -->
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_top"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:background="@drawable/button_selector"
+            android:drawableLeft="@drawable/btn_back"
+            android:drawablePadding="2dp"
+            android:padding="10dip"
+            android:text="返回"
+            android:textColor="#ffffff"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <!-- Loading效果 -->
+
+        <LinearLayout
+            android:id="@+id/loadCommontLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/loadText_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:drawableLeft="@drawable/load"
+                android:drawablePadding="5dip"
+                android:gravity="center_vertical"
+                android:text="评论加载中..."
+                android:textSize="16dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- 评论ListView -->
+
+        <ListView
+            android:id="@+id/listview_comment"
+            android:divider="#00000000"
+            android:dividerHeight="0dp"
+            android:listSelector="#00000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fadingEdge="none"
+	        android:fadingEdgeLength="0dp"
+	        android:overScrollMode="never">
+        </ListView>
+    </LinearLayout>
+
+    <!-- 输入评论 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/text_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_weight="5"
+            android:background="@drawable/edittext_style_rounded"
+            android:drawableLeft="@drawable/comment_icon"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="随便吐槽一句评论吧"
+            android:paddingLeft="5dp"
+            android:inputType="textPersonName"
+            android:textColor="#464547"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/btn_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_style_setting_selector"
+            android:padding="5dp"
+            android:text="评论"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

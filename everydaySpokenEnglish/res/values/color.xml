@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ge_white">#ffffff</color>
+    <color name="ge_big_black">#606062</color>
+    <color name="ge_blue_mormal">#3399ff</color>
+    <color name="ge_blue_pressed">#2985e2</color>
+    <color name="ge_gray_litle">#e4ebf3</color>
+    <color name="ge_gold">#fff888</color>
+    <color name="ge_cool_white">#acd7ff</color>
+    <color name="ge_title_black">#4e565f</color>
+    <color name="ge_little_gray">#b1bcc7</color>
+    <color name="ge_orange">#ffc600</color>
+    <color name="ge_little_green">#33cc99</color>
+    <color name="ge_item_click">#f4fdff</color>
+    
+    <color name="gray">#DBDBDB</color>
+    <color name="grey21">#363636</color>
+
+</resources>
